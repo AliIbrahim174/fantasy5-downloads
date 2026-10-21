@@ -1,30 +1,36 @@
 # Fantasy 5 — Android downloads
 
-This repository contains public app downloads and installation instructions. The application source code is kept in a separate private repository.
+Official Android downloads and installation instructions. Application source stays in a separate private repository. No GitHub account is needed to download.
 
-## Download
+## Download v1.1.0-beta.1
 
-**[Download Fantasy 5 v1.0.0-beta.1 for Android](https://github.com/AliIbrahim174/fantasy5-downloads/releases/download/v1.0.0-beta.1/Fantasy5-v1.0.0-beta.1-android.apk)**
+| Who uses it | Download |
+| --- | --- |
+| Friends / fantasy managers | **[Fantasy 5](https://github.com/AliIbrahim174/fantasy5-downloads/releases/download/v1.1.0-beta.1/Fantasy5-v1.1.0-beta.1-android.apk)** |
+| Verified administrator | **[Fantasy 5 Admin](https://github.com/AliIbrahim174/fantasy5-downloads/releases/download/v1.1.0-beta.1/Fantasy5-Admin-v1.1.0-beta.1-android.apk)** |
 
-[Release page](https://github.com/AliIbrahim174/fantasy5-downloads/releases/tag/v1.0.0-beta.1) · [SHA-256 checksum](https://github.com/AliIbrahim174/fantasy5-downloads/releases/download/v1.0.0-beta.1/SHA256SUMS.txt)
+[Release notes](https://github.com/AliIbrahim174/fantasy5-downloads/releases/tag/v1.1.0-beta.1) · [SHA-256 checksums](https://github.com/AliIbrahim174/fantasy5-downloads/releases/download/v1.1.0-beta.1/SHA256SUMS.txt) · [Build information](https://github.com/AliIbrahim174/fantasy5-downloads/releases/download/v1.1.0-beta.1/build-info.json)
 
-Android 7.0 or newer. One universal APK, about 57 MB. No GitHub account is needed to download.
+Android 7.0 or newer. Each universal APK is about 55 MB. Android shows version 1.1.0 (build 3). The apps install side by side. Docker is not needed.
 
-## Install and sign in
+## Install or update
 
-1. Open the download link on your Android phone.
-2. Download and open the APK. If requested, allow installation from that browser or file app.
-3. Open **Fantasy 5**. Register with your own email and password, then confirm your email. Existing users can sign in normally.
-4. Select the correct gameweek and save your fantasy squad before its displayed deadline.
+1. Download and open the appropriate APK. If Android asks, allow installation from that browser or file app.
+2. Existing users should update in place and retain app data. Do not uninstall to resolve a signing error; contact the administrator first.
+3. Managers open **Fantasy 5**, register with their own email/password, confirm their email, then save a squad before the displayed deadline. Existing accounts can sign in normally.
+4. The administrator opens **Fantasy 5 Admin** and signs in with the existing verified admin account. Installing this APK does not grant a role. The manager app has no admin controls, including for the owner.
 
-This is the official connected app for the real competition. Manager registration does not grant admin access.
+## Admin matchdays
 
-## Updates and beta status
+1. While online, press **Verify admin & download matchday**. Prepare and sync attendance/teams before the fantasy deadline.
+2. At the pitch, record starts/finishes, events, keeper duty, substitutions and corrections offline. Successful edits save immediately on the phone and survive an app restart.
+3. Reconnect and press **Sync matchday**. Wait for zero pending actions. Managers receive updates and published points after sync.
+4. Keep the app data. Use the backup icon to save a JSON copy through Android's file picker. Automatic replacement-phone backup import is not included.
 
-Future APKs will be published here. Keep your app data when updating. If Android reports a signing conflict, sync any unsent match events before asking the administrator for help.
+Initial verified download, account/catalog/competition decisions and remote result distribution require connectivity. Test apps are for synthetic data only; use these official editions for real gameweeks.
 
-This is a direct-install beta, not a Play Store release. It uses the existing privately retained local signing certificate for update compatibility with the owner's current build. The application is compiled in release mode. Email confirmation is required; email delivery capacity and broader devices/networks have not been load-tested.
+## Beta status
 
-APK SHA-256:
+The release was checked on a Samsung SM-S938B, including three synthetic offline matches, a cold restart and duplicate-free synchronization. It uses the retained signing certificate for compatibility with the previous official APK. This is a direct-install beta, not a Play Store release. Broader devices/networks and long outages have not been fully verified. The Admin password-reset email roundtrip remains unverified; Android callback resolution was checked.
 
-`afc763b10c47ab626cd6b10752514e04cf670e4ba83328014eea9046856e0f62`
+Older downloads remain available on the [releases page](https://github.com/AliIbrahim174/fantasy5-downloads/releases).
