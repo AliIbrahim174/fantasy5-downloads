@@ -1,6 +1,18 @@
-# Fantasy Street League - Android downloads
+# Fantasy Street League - downloads
 
-Official Android apps, downloads and guides. Application source remains in a separate private repository. No GitHub account is needed to download.
+Official Android and Windows apps, downloads and guides. Application source remains in a separate private repository. No GitHub account is needed to download.
+
+## Windows PC manager app — v1.3.1-beta.1
+
+**[Download FSL for Windows](https://github.com/AliIbrahim174/fantasy5-downloads/releases/download/v1.3.1-windows-beta.1/FSL-Windows-v1.3.1-beta.1.zip)** · [Release notes and checksums](https://github.com/AliIbrahim174/fantasy5-downloads/releases/tag/v1.3.1-windows-beta.1) · [Windows instructions](WINDOWS-INSTALL.txt)
+
+Windows 10/11 **x64**. Download the ZIP, right-click → **Extract All**, then open **FantasyStreetLeague.exe** in the extracted folder. Keep the DLLs and `data` folder together. Move the folder to its permanent location before first use. No Docker, Flutter, paid membership or Windows administrator rights are needed.
+
+Use your existing manager account: squads, points, cards and leagues are shared with Android. New accounts must confirm their email. Open confirmation and password-reset emails on the same PC that requested them; allow the browser to open FSL. Keep Windows automatic date/time enabled. Recaps save as PNG images through Windows Save As.
+
+This is an unsigned direct-download beta; Windows may show an unknown-publisher warning. Verify the source and the release's SHA-256 checksum; do not disable antivirus. Internet is required for registration, purchases, saves and new results. Administration remains in the Android Admin app. Windows 11 native registration/recovery, purchases, recap saving and session restoration were tested against an isolated local backend; hosted Windows email delivery and Windows 10 hardware were not newly verified.
+
+The Android downloads below remain version **1.3.0 (build 7)** and are not replaced by the Windows release.
 
 ## Download v1.3.0-beta.1
 

@@ -1,0 +1,32 @@
+FANTASY STREET LEAGUE (FSL) - WINDOWS MANAGER APP
+Version 1.3.1 (build 8), Windows 10/11 x64
+
+1. Download the ZIP from AliIbrahim174/fantasy5-downloads on GitHub.
+2. Right-click the ZIP and choose Extract All.
+3. Move the extracted FSL folder to the permanent location you want to use.
+4. Open FantasyStreetLeague.exe INSIDE that folder. Keep data and every DLL
+   beside the executable. Do not run it from inside the ZIP.
+5. Sign in with your existing manager email/password, or register and confirm
+   the new email. Existing squads, points, chips and leagues use the same server
+   as Android. Windows does not need Docker, Flutter or a developer account.
+6. Open confirmation and password-reset links on THIS PC. When the browser asks
+   to open Fantasy Street League, allow it. The app must have been opened once
+   from its permanent folder to register its current-user email-link handler.
+
+This edition is for managers. Administration stays in Fantasy 5 Admin on Android.
+Windows uses Save recap image to save a PNG, which you can share yourself.
+Internet is needed for registration, purchases, squad saves and new results.
+Cached data is labelled offline/stale. Check that squad saves succeed online.
+Keep Windows automatic date/time enabled for reliable login/session renewal.
+
+The application registers only its fantasy5: link handler for the current Windows
+user; it does not require Windows administrator rights. Do not open two different
+copies. If you move the folder, launch it again before following another email.
+To update later, close FSL, extract the new folder and open the new executable.
+Existing app preferences and sessions are stored separately under your user profile.
+
+This direct-download beta is not Microsoft Store signed. Windows may show an
+unknown-publisher warning. Verify the download source and SHA256SUMS.txt; do not
+disable antivirus protection. No private source, passwords, signing keys or
+Supabase privileged keys are included. Microsoft Visual C++ app-local runtime
+DLLs are bundled so a separate runtime installation is normally unnecessary.
