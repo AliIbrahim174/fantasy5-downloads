@@ -4,7 +4,7 @@ Official Android and Windows apps, downloads and guides. Application source rema
 
 ## Windows PC manager app — v1.3.1-beta.1
 
-**[Download FSL for Windows](https://github.com/AliIbrahim174/fantasy5-downloads/releases/download/v1.3.1-windows-beta.1/FSL-Windows-v1.3.1-beta.1.zip)** · [Release notes and checksums](https://github.com/AliIbrahim174/fantasy5-downloads/releases/tag/v1.3.1-windows-beta.1) · [Windows instructions](WINDOWS-INSTALL.txt)
+**[Download FSL for Windows](https://github.com/AliIbrahim174/fantasy5-downloads/releases/download/v1.3.1-windows-beta.1/FSL-Windows-v1.3.1-beta.1.zip?download=1)** · [Release notes and checksums](https://github.com/AliIbrahim174/fantasy5-downloads/releases/tag/v1.3.1-windows-beta.1) · [Windows instructions](WINDOWS-INSTALL.txt)
 
 Windows 10/11 **x64**. Download the ZIP, right-click → **Extract All**, then open **FantasyStreetLeague.exe** in the extracted folder. Keep the DLLs and `data` folder together. Move the folder to its permanent location before first use. No Docker, Flutter, paid membership or Windows administrator rights are needed.
 
