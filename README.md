@@ -38,7 +38,7 @@ Account/catalog/price decisions, initial verified download, manager purchases an
 
 ## Beta status
 
-The matching workflow passed a Samsung offline recording/cold-restart/sync check using four custom teams, three synthetic matches, eleven events and 49 saved actions. Manager match details and the owner-approved Admin UI were inspected. The public build uses the retained signing certificate. This is a direct-install beta, not a Play Store release.
+The matching workflow passed a Samsung offline recording/cold-restart/sync check using four custom teams, three synthetic matches, eleven events and 49 saved actions. Manager match details and the owner-approved Admin UI were inspected. All six required Android/backend CI jobs passed, including the expanded 49-action offline/cold-restart/sync scenario with zero duplicates. The public build uses the retained signing certificate. This is a direct-install beta, not a Play Store release.
 
 Broader physical devices, simultaneous two-phone recording, prolonged outages, automatic replacement-phone backup import and the hosted Admin password-reset email roundtrip were not newly verified.
 
