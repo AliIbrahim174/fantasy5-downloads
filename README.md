@@ -1,36 +1,45 @@
-# Fantasy 5 — Android downloads
+# Fantasy Street League ? Android downloads
 
-Official Android downloads and installation instructions. Application source stays in a separate private repository. No GitHub account is needed to download.
+Official Android apps, downloads and guides. Application source remains in a separate private repository. No GitHub account is needed to download.
 
-## Download v1.1.0-beta.1
+## Download v1.3.0-beta.1
 
 | Who uses it | Download |
 | --- | --- |
-| Friends / fantasy managers | **[Fantasy 5](https://github.com/AliIbrahim174/fantasy5-downloads/releases/download/v1.1.0-beta.1/Fantasy5-v1.1.0-beta.1-android.apk)** |
-| Verified administrator | **[Fantasy 5 Admin](https://github.com/AliIbrahim174/fantasy5-downloads/releases/download/v1.1.0-beta.1/Fantasy5-Admin-v1.1.0-beta.1-android.apk)** |
+| Friends / fantasy managers | **[Fantasy Street League (FSL)](https://github.com/AliIbrahim174/fantasy5-downloads/releases/download/v1.3.0-beta.1/Fantasy5-v1.3.0-beta.1-android.apk)** |
+| Verified administrator | **[Fantasy 5 Admin](https://github.com/AliIbrahim174/fantasy5-downloads/releases/download/v1.3.0-beta.1/Fantasy5-Admin-v1.3.0-beta.1-android.apk)** |
 
-[Release notes](https://github.com/AliIbrahim174/fantasy5-downloads/releases/tag/v1.1.0-beta.1) · [SHA-256 checksums](https://github.com/AliIbrahim174/fantasy5-downloads/releases/download/v1.1.0-beta.1/SHA256SUMS.txt) · [Build information](https://github.com/AliIbrahim174/fantasy5-downloads/releases/download/v1.1.0-beta.1/build-info.json)
+[Release notes](https://github.com/AliIbrahim174/fantasy5-downloads/releases/tag/v1.3.0-beta.1) ? [SHA-256 checksums](https://github.com/AliIbrahim174/fantasy5-downloads/releases/download/v1.3.0-beta.1/SHA256SUMS.txt) ? [Build information](https://github.com/AliIbrahim174/fantasy5-downloads/releases/download/v1.3.0-beta.1/build-info.json) ? [Admin matchday guide](ADMIN-GUIDE.md)
 
-Android 7.0 or newer. Each universal APK is about 55 MB. Android shows version 1.1.0 (build 3). The apps install side by side. Docker is not needed.
+Android 7.0 or newer. Each universal APK is about 57 MB. Android displays **1.3.0 (build 7)**. The apps install side by side. Docker is unnecessary for either official app.
 
 ## Install or update
 
 1. Download and open the appropriate APK. If Android asks, allow installation from that browser or file app.
-2. Existing users should update in place and retain app data. Do not uninstall to resolve a signing error; contact the administrator first.
-3. Managers open **Fantasy 5**, register with their own email/password, confirm their email, then save a squad before the displayed deadline. Existing accounts can sign in normally.
-4. The administrator opens **Fantasy 5 Admin** and signs in with the existing verified admin account. Installing this APK does not grant a role. The manager app has no admin controls, including for the owner.
+2. Install over the existing app and retain its data. FSL updates the existing Fantasy 5 manager app; your account remains valid. Do not uninstall to resolve a signing error?contact the administrator first.
+3. Managers open **Fantasy Street League**, register/confirm their email if new, or sign in to their existing account. Save the squad before the displayed deadline. The starting budget remains **60.0 credits**.
+4. The administrator opens **Fantasy 5 Admin**, using the existing verified admin account. Installing Admin does not grant a role. The manager edition has no administration controls.
 
-## Admin matchdays
+## What's new
 
-1. While online, press **Verify admin & download matchday**. Prepare and sync attendance/teams before the fantasy deadline.
-2. At the pitch, record starts/finishes, events, keeper duty, substitutions and corrections offline. Successful edits save immediately on the phone and survive an app restart.
-3. Reconnect and press **Sync matchday**. Wait for zero pending actions. Managers receive updates and published points after sync.
-4. Keep the app data. Use the backup icon to save a JSON copy through Android's file picker. Automatic replacement-phone backup import is not included.
+- FSL manager interface, gameweek lineup/points history, other manager profiles, primary-position player search and a gameweek-specific matchday feed.
+- Clear Prepare ? Play ? Review Admin controls, two or more named/color teams, full rosters including substitutes, and explicit first pairing/starters/keepers.
+- Timed **SUB** and **GK SUB**, between-match transfers, automatic later pairings with a waiting queue, match timelines and confirmed-absence review.
+- Future gameweeks: primary GK gets 1 point per complete three saves; other primary positions get 2. Emergency +2 requires neither registered role GK and more than five actual keeper minutes. Clean sheets still need full qualifying duty. First-match penalties decide rotation only; fantasy scoring retains a draw. GW1 keeps its original rules and results.
 
-Initial verified download, account/catalog/competition decisions and remote result distribution require connectivity. Test apps are for synthetic data only; use these official editions for real gameweeks.
+## Offline Admin matchdays
+
+1. Online, **Verify admin & download matchday** (or download latest setup from the menu). Create the gameweek with Cairo kickoff/deadline, confirm attendees and save teams. **Sync before the fantasy deadline** so managers can select squads.
+2. At the pitch, starts/finishes, all match events, SUB/GK SUB, transfers between matches, recaps, absence review and publication requests save on this phone without connectivity. Restarting the app retains them.
+3. Reconnect and **Sync matchday**. Wait for zero pending actions and a finalised gameweek. Managers receive changes and published points after synchronization.
+4. Keep app data. Export a backup through the download icon and Android's file picker. Automatic import onto a replacement phone is not included.
+
+Account/catalog/price decisions, initial verified download, manager purchases and result distribution need connectivity. Test apps contain synthetic data and are not for real gameweeks. See the [complete Admin guide](ADMIN-GUIDE.md) for substitutions, keeper swaps, transfers, penalties, absences and conflict recovery.
 
 ## Beta status
 
-The release was checked on a Samsung SM-S938B, including three synthetic offline matches, a cold restart and duplicate-free synchronization. It uses the retained signing certificate for compatibility with the previous official APK. This is a direct-install beta, not a Play Store release. Broader devices/networks and long outages have not been fully verified. The Admin password-reset email roundtrip remains unverified; Android callback resolution was checked.
+The matching workflow passed a Samsung offline recording/cold-restart/sync check using four custom teams, three synthetic matches, eleven events and 49 saved actions. Manager match details and the owner-approved Admin UI were inspected. The public build uses the retained signing certificate. This is a direct-install beta, not a Play Store release.
 
-Older downloads remain available on the [releases page](https://github.com/AliIbrahim174/fantasy5-downloads/releases).
+Broader physical devices, simultaneous two-phone recording, prolonged outages, automatic replacement-phone backup import and the hosted Admin password-reset email roundtrip were not newly verified.
+
+Older versions remain on the [releases page](https://github.com/AliIbrahim174/fantasy5-downloads/releases). This repository contains downloads and guides, not private application source, private inputs, passwords or signing keys.
